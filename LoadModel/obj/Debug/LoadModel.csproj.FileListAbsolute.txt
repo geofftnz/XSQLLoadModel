@@ -1,5 +1,0 @@
-C:\code\XSQLLoadModel\LoadModel\bin\Debug\LoadModel.dll
-C:\code\XSQLLoadModel\LoadModel\bin\Debug\LoadModel.pdb
-C:\code\XSQLLoadModel\LoadModel\obj\Debug\LoadModel.csprojResolveAssemblyReference.cache
-C:\code\XSQLLoadModel\LoadModel\obj\Debug\LoadModel.dll
-C:\code\XSQLLoadModel\LoadModel\obj\Debug\LoadModel.pdb

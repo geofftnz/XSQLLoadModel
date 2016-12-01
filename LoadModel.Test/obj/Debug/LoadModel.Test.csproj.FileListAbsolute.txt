@@ -1,9 +1,0 @@
-C:\code\XSQLLoadModel\LoadModel.Test\bin\Debug\LoadModel.Test.dll
-C:\code\XSQLLoadModel\LoadModel.Test\bin\Debug\LoadModel.Test.pdb
-C:\code\XSQLLoadModel\LoadModel.Test\bin\Debug\LoadModel.dll
-C:\code\XSQLLoadModel\LoadModel.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-C:\code\XSQLLoadModel\LoadModel.Test\bin\Debug\LoadModel.pdb
-C:\code\XSQLLoadModel\LoadModel.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
-C:\code\XSQLLoadModel\LoadModel.Test\obj\Debug\LoadModel.Test.csprojResolveAssemblyReference.cache
-C:\code\XSQLLoadModel\LoadModel.Test\obj\Debug\LoadModel.Test.dll
-C:\code\XSQLLoadModel\LoadModel.Test\obj\Debug\LoadModel.Test.pdb
