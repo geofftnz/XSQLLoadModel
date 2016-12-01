@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace LoadModel.Model
 {
     /// <summary>
-    /// Represents a given load profile, which determines the probability of activity for a given hour of the day.
+    /// Represents a given load profile, which determines the probability of activity for a given period (hour) of the day.
     /// </summary>
     public class LoadProfile
     {
@@ -16,21 +16,21 @@ namespace LoadModel.Model
         public const int PERIODS = 24;
         private double[] probability = new double[PERIODS];
 
-        public double this[int hour]
+        public double this[int period]
         {
             get
             {
-                if (hour < 0 || hour >= PERIODS)
+                if (period < 0 || period >= PERIODS)
                     throw new ArgumentOutOfRangeException("hour");
 
-                return probability[hour];
+                return probability[period];
             }
             private set
             {
-                if (hour < 0 || hour >= PERIODS)
+                if (period < 0 || period >= PERIODS)
                     throw new ArgumentOutOfRangeException("hour");
 
-                probability[hour] = value;
+                probability[period] = value;
             }
         }
 

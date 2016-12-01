@@ -23,10 +23,18 @@ namespace LoadModel.Model
         /// </summary>
         public List<Cohort> Cohorts { get; } = new List<Cohort>();
 
-
         public Cell()
         {
+        }
 
+        public double GetTotalSizeAt(int time)
+        {
+            return Cohorts.Select(c => c.GetTotalSizeAt(time)).Sum();
+        }
+
+        public double GetSizeAt(int time, int period)
+        {
+            return Cohorts.Select(c => c.GetWeightedSizeAt(time, period)).Sum();
         }
 
     }

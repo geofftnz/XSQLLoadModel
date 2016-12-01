@@ -38,5 +38,10 @@ namespace LoadModel.Model
             return ((time - StartTime) * GrowthRate + BaseSize) * Count;
         }
 
+        public double GetWeightedSizeAt(int time, int period)
+        {
+            return GetTotalSizeAt(time) * Profile[period];
+        }
+
     }
 }
